@@ -30,7 +30,6 @@ def firstWord(my_string):
 
 def nestPairDict(wl, pl):
     nested_dict = {}
-#NEED TO FIGURE OUT WHY ITS NOT PRINTING THE RIGHT PERCENTAGES<--
     for word in wl:
         nested_dict[word] = {}
         uniquePairs = []
